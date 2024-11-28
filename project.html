@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        header nav ul li a:hover {
+            color: #f39c12;
+        }
+
+        section {
+            padding: 2rem;
+            max-width: 1000px;
+            margin: 2rem auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #2980b9;
+            margin-bottom: 2rem;
+        }
+
+        .project {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        .project-item {
+            background-color: #fff;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 48%;
+            box-sizing: border-box;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .project-item figcaption {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 1rem;
+        }
+
+        .project-item p {
+            margin: 1rem 0;
+            color: #555;
+        }
+
+        .project-item a {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: #2980b9;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .project-item a:hover {
+            background-color: #f39c12;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>My Projects</h1>
+        <div class="project">
+            <!-- Project 1 -->
+            <div class="project-item">
+                <figure>
+                    <img src="C:\Users\dell\Desktop\MERN\acropolis\portfolio1.html\image copy.png" alt="Project 1">
+                    <figcaption>Amazon Clone</figcaption>
+                </figure>
+                <p>This is a web application designed as a clone of Amazon, one of the largest online shopping platforms. The goal of this project was to replicate the core functionalities of Amazon, focusing on the user interface, product listing, cart system, and user authentication. It serves as a comprehensive practice project for full-stack development.</p>
+                <a href="file:///C:/Users/dell/Desktop/MERN/acropolis/amzclon.html#slide3" target="_blank">View Project</a>
+            </div>
+
+            <!-- Add more project items as needed -->
+            <div class="project-item">
+                <figure>
+                    <img src="C:\Users\dell\Desktop\MERN\acropolis\portfolio1.html\project.jpg" alt="Project 2">
+                    <figcaption>Registration System with Database using Excel</figcaption>
+                </figure>
+                <p>This project implements a registration system where users can register by providing their details, and the information is stored in an Excel spreadsheet. The system allows users to sign up by entering personal data such as name, email, contact number, and address. The data is then automatically added to an Excel file, acting as a simple database. This project serves as a basic introduction to data handling and automating data storage.</p>
+                <a href="C:\Users\dell\Documents\Book1.xlsm" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ishika Bansiwal | All rights reserved.</p>
+    </footer>
+</body>
+</html>
